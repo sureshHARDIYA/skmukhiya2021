@@ -1,7 +1,5 @@
 ---
 title: GraphQL query parsing and validation?
-cover: graphql.png
-excerpt: "something"
 date: "2019-10-27T22:40:32.169Z"
 template: "post"
 draft: false
@@ -9,8 +7,8 @@ slug: "query-parsing-and-validation-in-graphQL"
 category: "Software Development"
 tags:
   - "GraphQL"
-  - "Query parsing"
-  - "Query validation"
+  - "GraphQL Query parsing"
+  - "GraphQL Query validation"
 description: "The main aim of this article is to show how a GraphQL query is parsed and validated before execution. Here, I assume the reader knows about what is GraphQL?; how to compose GraphQL  schema?; what is GraphQL query? and what are resolvers,  mutations and subscriptions?"
 socialImage: ast.png
 ---

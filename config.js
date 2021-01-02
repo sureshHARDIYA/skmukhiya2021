@@ -29,7 +29,7 @@ module.exports = {
       path: "/timeline",
     },
     {
-      label: "download",
+      label: "Download",
       path: "/download",
     },
     {

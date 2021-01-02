@@ -1,8 +1,15 @@
 ---
 title: Philosophy of Science and its relation to AI-assisted Adaptive Technology for mental health treatment
-subTitle: AI-assisted Adaptive Technology
 category: "Research Ethics"
-cover: methods.png
+date: "2019-06-01T22:40:32.169Z"
+template: "post"
+draft: false
+slug: "how-does-graphql-work"
+tags:
+  - "Research Ethics"
+  - "Philosophy of science"
+description: "This position paper correlates the philosophy of science with the use of Artificial Intelligence (AI) assisted adaptive technology for providing personalized treatment of mental health problems using adaptive technology. Machine Learning (ML), a subset of AI, provides principled methodologies for the development of automatic, complex, objective algorithmic models for analysis of multi-dimensional and multi-modal biological data."
+socialImage: methods.png
 ---
 
 ## Abstract

@@ -1,8 +1,15 @@
 ---
 title: How does GraphQL work?
-subTitle: Working mechanism of GraphQL behind the scene
+date: "2019-06-20T22:40:32.169Z"
+template: "post"
+draft: false
+slug: "how-does-graphql-work"
 category: "Software Development"
-cover: graphql.png
+tags:
+  - "GraphQL"
+  - "How does GraphQL work?"
+description: "GraphQL is a recently proposed, and increasingly adopted framework for providing a new type of data access interface on the web. The framework includes a graph query language that enables app developers to run queries against server API that traverse a graph of application objects and fetch exactly the right amount and format of data in a single request."
+socialImage: graphql.png
 ---
 
 ## Abstract

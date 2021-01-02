@@ -1,8 +1,14 @@
 ---
 title: Psychological treatments for Mental Disorder in adults
-subTitle: A review of the evidence of leading organisations
 category: "Paper Review"
-cover: ebt.png
+date: "2019-05-10T22:40:32.169Z"
+template: "post"
+draft: false
+slug: "clinical-psychological-review"
+tags:
+  - "Paper Review"
+description: "Evidence-based psychological treatments is regarded as the best practice for treatment of mental health morbidities. The study analyses RCTs, reviews, meta-analysis, guides and reviews from 4 different organisations in relation to mental health disorders and the level of agreement among organisations associated evidence-based psychological treatments."
+socialImage: ebt.png
 ---
 
 ## Psychological treatments for Mental Disorder in adults: A review of the evidence of leading organisations
@@ -81,7 +87,6 @@ Higher ICC suggests higher IRR. ICC 1 indicates perfect agreement. -1 Suggest st
 | 17  | Hypochondriasis                | CBT, CT, psycoeducation | -1.39  |
 | 18  | Body Dysmorphic Disorder       | CBT                     |        |
 
-
 ## Discussion
 
 1.  The results of analysis shows that agreement is low for most of the disorders. \
@@ -93,7 +98,7 @@ Higher ICC suggests higher IRR. ICC 1 indicates perfect agreement. -1 Suggest st
 
 2.  Several reasons for these low level disagreement are discussed in the paper including: organisation's biases; the fact that different organisations used different study to determine their effectiveness; different criteria used by different organisations to evaluate treatments; evidences were made at different time periods.
 
-The study compare evidence provided by for leading International organisations on different psychological treatments for the principal adults mental disorders. From the main findings, it should be highlighted that there is no consensus regarding the evidence presented to support the effectiveness of psychological treatments for most mental disorders in adults. The therapies based on CBT models are those that have shown higher level of evidence. In addition, although there are plethora of treatments for many of the disorders mentioned above, not all offer the same quality of evidence to support them. As a result, we need to contribute to improving the quality of Randomized Controlled Trials (RCTs) through more independent studies that promote and contemplate reproducibility as a much more important criterion than evisaged so far.  
+The study compare evidence provided by for leading International organisations on different psychological treatments for the principal adults mental disorders. From the main findings, it should be highlighted that there is no consensus regarding the evidence presented to support the effectiveness of psychological treatments for most mental disorders in adults. The therapies based on CBT models are those that have shown higher level of evidence. In addition, although there are plethora of treatments for many of the disorders mentioned above, not all offer the same quality of evidence to support them. As a result, we need to contribute to improving the quality of Randomized Controlled Trials (RCTs) through more independent studies that promote and contemplate reproducibility as a much more important criterion than evisaged so far.
 
 ## References
 
