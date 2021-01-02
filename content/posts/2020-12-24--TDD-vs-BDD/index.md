@@ -152,6 +152,8 @@ There is no right answer. Some developers might argue TDD is better than BDD, ho
 
 #### Glossary Alert
 
-- `Test cases`: <p id="fn1">In software engineering, a test case is a specification of the inputs, execution conditions, testing procedure, and expected results that define a single test to be executed to achieve a particular software testing objective, such as to exercise a particular program path or to verify compliance with a specific requirement. <a href="#ref1" title="Jump back to footnote 2 in the text.">↩</a></p>
-- `Code coverage`: <p id="fn2">In computer science, test coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs. <a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a><p>
-- `TDD`: <p id="fn3"> Beck, Kent. Test-driven development: by example. Addison-Wesley Professional, 2003.<a href="#ref3" title="Jump back to footnote 2 in the text.">↩</a><p>
+<p id="fn1"><em>Test cases</em>: In software engineering, a test case is a specification of the inputs, execution conditions, testing procedure, and expected results that define a single test to be executed to achieve a particular software testing objective, such as to exercise a particular program path or to verify compliance with a specific requirement. <a href="#ref1" title="Jump back to footnote 2 in the text.">↩</a></p>
+
+<p id="fn2"><em>Code coverage</em>: In computer science, test coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs. <a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a><p>
+
+<p id="fn3"> <em>TDD</em>: Beck, Kent. Test-driven development: by example. Addison-Wesley Professional, 2003.<a href="#ref3" title="Jump back to footnote 2 in the text.">↩</a><p>

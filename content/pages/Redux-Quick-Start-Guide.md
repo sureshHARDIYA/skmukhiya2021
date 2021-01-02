@@ -1,9 +1,10 @@
 ---
 title: Redux Quick Start Guide
-menuIgnore: true
+template: "page"
+socialImage: "/images/redux.png"
 ---
 
-# Preface
+### Preface
 
 This book explores methodologies for developing a scalable modern web application using
 cutting edge front-end technologies. The book is intended for web developers, frontend
@@ -14,7 +15,7 @@ states effectively. Finally, we will explore the architecture of `Redux-Saga` an
 can be used in handling side effects.
 
 <figure>
-    <img src="redux.png" alt="Redux Quick Start Guide" width="400" height="300" />
+    <img src="images/redux.png" alt="Redux Quick Start Guide" width="400" height="300" />
     <figcaption><div>Redux Quick Start Guide</div></figcation>
   </figure>
 
@@ -38,7 +39,7 @@ so on. In this book, we will guide users through a single application architectu
 using cutting edge technology ReactJS with `Redux` for state management and Redux-Saga
 for handling side effects.
 
-# Target Audience
+### Target Audience
 
 Any Web developer or UI/UX developers will be able to benefit from this book. The book
 will guide you seamlessly from beginner concept of setting up tools to the advanced
@@ -47,7 +48,7 @@ Development) paradigm that will help you to understand the logic easily and veri
 code written is valid. In addition to that, the book will help you to create a full production
 app ready to be hosted in the server of your choice.
 
-# What this book covers
+### What this book covers
 
 - Chapter 1, **Understanding Redux**, provides a detailed overview of redux, its fundamental principles, and a unified approach to redux echo system. In addition to that, we will discuss
   redux life cycle, action creators, redux and redux store. We will be discussing in detail

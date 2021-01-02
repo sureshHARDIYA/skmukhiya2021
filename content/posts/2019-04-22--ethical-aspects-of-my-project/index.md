@@ -1,8 +1,15 @@
 ---
 title: Research Ethics in relation to AI-assisted Adaptive Technology
-subTitle: for mental health treatment
 category: "Research Ethics"
-cover: ethics.png
+date: "2019-04-22T22:40:32.169Z"
+template: "post"
+draft: false
+slug: "ethical-aspects-of-my-project"
+tags:
+  - "Paper Review"
+  - "Evidence-based psychological"
+description: "The trustworthiness of the scientific society and the perception of the public to judge and adhere to new knowledge strongly depends on the authenticity, accuracy, and reliability of the results that have been published."
+socialImage: ethics.png
 ---
 
 ## Abstracts

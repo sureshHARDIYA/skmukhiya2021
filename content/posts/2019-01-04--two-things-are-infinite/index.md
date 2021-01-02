@@ -1,8 +1,14 @@
 ---
 title: Adaptive Technology in Mental Health
-subTitle: mental health problem
 category: "Mental Health"
-cover: photo-1490474418585-ba9bad8fd0ea-cover.jpg
+date: "2019-01-04T22:40:32.169Z"
+template: "post"
+draft: false
+slug: "Adaptive-Technology-in-Mental-Health"
+tags:
+  - "Mental Health"
+description: "Technology has open new domains in data collection and mental health. The uniqueness of mental health makes it difficult to successfully make technology that collaborates with human behavior and creates positive outcomes and measurement."
+socialImage: photo-1490474418585-ba9bad8fd0ea-cover.jpg
 ---
 
 Technology has open new domains in data collection and mental health. The uniqueness of mental health makes it difficult to successfully make technology that collaborates with human behavior and creates positive outcomes and measurement. People who have mental illness can have problem processing, comprehending, and acting appropriately on experiences and information. This is because their illness can affect mental functions such as initiative, attention, memory, the ability of planning, summing up information, and concentration. With awareness and advance research, there is potential to completely change the mental health environment for patients. There is a dramatic rise in interest in technological solutions for patients (F.Cuturi, Aggius-Vella, Campus, Parmiggiani, & Gori, 2016). Treatment of mental illness has come a long way, but science is still continuously pushing the boundaries of treatment. Modern technology is brought into medical procedures to help patients. Recent research has highlighted that technological strategies influence the performance of firms, and attention of professionals is on two types of strategies: first is adopting technologies and second is investing in those technologies that suit firm’s circumstances and needs (Deraniyagala, 2001). Because of system flaws and the stigma of mental illness which limits access to mental health care, patients want more affordable and fewer frustration solutions. It is generally known that people with mental illness do not utilize assistive technologies; there is also little empirical research to support this claim (Wehmeyer, 1995). Problems related to mental health are a major concern worldwide; technologies represent many opportunities for change in the mental health area. It can help people with mental health to live safely at home (Brims & Oliver, 2018).

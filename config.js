@@ -32,15 +32,12 @@ module.exports = {
       label: "Download",
       path: "/download",
     },
-    {
-      label: "Contact me",
-      path: "/pages/contacts",
-    },
   ],
   author: {
     name: "Suresh Kumar Mukhiya",
     photo: "/photo.jpg",
-    bio: "Frontend Developer, NLP",
+    bio:
+      "Researcher by chance. I prefer green food and nice code. Artificial Intelligence, Big data and Frontend Technologies fascinates me. I like taking pictures.",
     contacts: {
       email: "itsmeskm99@gmail.com",
       facebook: "jagapati",

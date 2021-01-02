@@ -1,9 +1,10 @@
 ---
 title: Hands-On Big Data Modeling
-menuIgnore: true
+template: "page"
+socialImage: "/media/image-2.jpg"
 ---
 
-# Preface
+### Preface
 
 Modeling and managing data is a central focus of all big data projects. In fact, a database is considered to be effective only if you have a logical and sophisticated data model. This book will help you develop practical skills in modeling your own big data projects and improve the performance of analytical queries for your specific business requirements.
 
@@ -12,7 +13,7 @@ To start with, you’ll get a quick introduction to big data and understand the 
 By the end of this book, you’ll be able to design and develop efficient data models for varying data sizes easily and efficiently.
 
 <figure>
-    <img src="bigData.jpg" alt="Hands-On Big Data Modeling" width="400" height="300" />
+    <img src="images/bigData.jpg" alt="Hands-On Big Data Modeling" width="400" height="300" />
     <figcaption><div>Hands-On Big Data Modeling</div></figcation>
   </figure>
 
@@ -28,14 +29,14 @@ The Hands-On Big Data Modelling series explores the methodology required to mode
 
 <a href="https://www.packtpub.com/big-data-and-business-intelligence/hands-big-data-modeling" data-icon="octicon-cloud-download" aria-label="Download ntkme/github-buttons on GitHub">Download Now</a>
 
-# Target Audience
+### Target Audience
 
 `Hands-On Big Data Modeling` is for you if you are a data modeler, data architect, ETL
 developer, business intelligence professional, or anyone who wants to design sophisticated
 and powerful database models. Basic programming skills using `Python`, `R`, or any other
 programming language will be beneficial.
 
-# What this book covers
+### What this book covers
 
 - Chapter 1, **Introduction to Big Data and Data Management**, covers the concept of big data, its sources, and its types. In addition to this, the chapter focuses on providing a theoretical foundation in data modeling and data management, including data ingestion, data storage, data quality, data operations, data scalability, and security, as well as the importance and implications of big data modeling and data management. The user will be getting their hands dirty with real big data and its sources.
 
