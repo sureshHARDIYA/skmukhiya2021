@@ -1,5 +1,5 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
 
 .page {
   @include margin-bottom(2);
@@ -20,8 +20,8 @@
     font-size: $typographic-base-font-size;
     @include line-height(1);
     @include margin(0, 0, 1);
+    text-align: justify;
   }
-
 }
 
 @include breakpoint-sm {
@@ -31,19 +31,15 @@
     &__inner {
       padding: 30px 20px;
     }
-
   }
-
 }
 
 @include breakpoint-md {
   .page {
-    lost-column: 2/3;
+    lost-column: 9/12;
 
     &__inner {
       padding: 40px 35px;
     }
-
   }
-
 }

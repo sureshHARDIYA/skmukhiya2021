@@ -1,50 +1,63 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
-  useKatex: false,
+  url: "https://skmukhiya.com.np",
+  pathPrefix: "/",
+  title:
+    "S.K. Mukhiya - Artificial Intelligence, Big Data and Frontend Developer",
+  subtitle: "S.K. Mukhiya | 1989-Present",
+  copyright: "© All rights reserved.",
+  disqusShortname: "suresh_kumar_mukhiya",
+  postsPerPage: 5,
+  googleAnalyticsId: "UA-139984814-1",
+  useKatex: true,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: "Blog",
+      path: "/",
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: "About me",
+      path: "/pages/about",
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      label: "Publications",
+      path: "/pages/publication",
+    },
+    {
+      label: "Timeline",
+      path: "/timeline",
+    },
+    {
+      label: "download",
+      path: "/download",
+    },
+    {
+      label: "Contact me",
+      path: "/pages/contacts",
+    },
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: "Suresh Kumar Mukhiya",
+    photo: "/photo.jpg",
+    bio: "Frontend Developer, NLP",
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
-      medium: '',
-    }
-  }
+      email: "itsmeskm99@gmail.com",
+      facebook: "jagapati",
+      telegram: "",
+      twitter: "dr_code_skm",
+      github: "sureshHARDIYA",
+      rss: "https://www.researchgate.net/profile/Suresh_Mukhiya2",
+      vkontakte: "",
+      linkedin: "suresh-kumar-mukhiya-65182a35/",
+      instagram: "sureshHARDIYA",
+      line: "",
+      gitlab: "",
+      weibo: "",
+      codepen: "",
+      youtube: "",
+      soundcloud: "",
+      medium: "@dr_code_skm",
+    },
+  },
 };
