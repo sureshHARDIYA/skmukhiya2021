@@ -7,7 +7,7 @@ module.exports = {
     "S.K. Mukhiya - Artificial Intelligence, Big Data and Frontend Developer",
   subtitle: "S.K. Mukhiya | 1989-Present",
   copyright: "© All rights reserved.",
-  disqusShortname: "suresh_kumar_mukhiya",
+  disqusShortname: "suresh-kumar-mukhiya",
   postsPerPage: 5,
   googleAnalyticsId: "UA-139984814-1",
   useKatex: true,
