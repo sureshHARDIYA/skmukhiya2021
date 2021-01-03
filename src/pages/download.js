@@ -10,7 +10,7 @@ import { useSiteMetadata } from "../hooks";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
-import { books, notes } from "./data";
+import { books, notes } from "../utils/data";
 import styles from "../components/Layout/Layout.module.scss";
 
 const PageTemplate = () => {

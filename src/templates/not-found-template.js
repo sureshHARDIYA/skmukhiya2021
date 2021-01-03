@@ -36,11 +36,6 @@ export const query = graphql`
       edges {
         node {
           path
-          component
-          pluginCreator {
-            name
-            pluginFilepath
-          }
         }
       }
     }

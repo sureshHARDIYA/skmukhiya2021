@@ -1,3 +1,5 @@
+// @flow strict
+import React from "react";
 export const books = [
   {
     title: "Hands-On Exploratory Data Analysis with Python",
