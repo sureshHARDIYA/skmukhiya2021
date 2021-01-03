@@ -1,5 +1,6 @@
 // @flow strict
 import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
@@ -8,6 +9,9 @@ import { useSiteMetadata } from "../hooks";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+
+import { books, notes } from "./data";
+import styles from "../components/Layout/Layout.module.scss";
 
 const PageTemplate = () => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
@@ -58,8 +62,33 @@ const PageTemplate = () => {
                 </ul>
               </div>
             </TabPanel>
-            <TabPanel>Coming soon!</TabPanel>
-            <TabPanel>Coming soon!</TabPanel>
+            <TabPanel>
+              <div>
+                {books &&
+                  books.map((item, index) => (
+                    <div className={styles.cardContainer} key={index}>
+                      <div className={styles.imageContainer}>
+                        <img src={item.image} alt={item.title} />
+                      </div>
+                      <div className={styles.descriptionContainer}>
+                        <strong>{item.title}</strong>
+                        <p>{item.description}</p>
+                        <Link to={item.more}>Read More</Link>
+                      </div>
+                    </div>
+                  ))}
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <ul>
+                {notes &&
+                  notes.map((item, index) => (
+                    <li key={index}>
+                      <Link to={item.link}>{item.title}</Link>
+                    </li>
+                  ))}
+              </ul>
+            </TabPanel>
             <TabPanel>Coming soon!</TabPanel>
           </Tabs>
         </div>

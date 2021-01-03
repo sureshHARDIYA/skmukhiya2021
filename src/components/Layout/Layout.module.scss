@@ -1,6 +1,23 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
 
 .layout {
-    lost-center: $layout-width;
+  lost-center: $layout-width;
+}
+
+.cardContainer {
+  margin-bottom: 2rem;
+}
+
+@include breakpoint-sm {
+  .cardContainer {
+    lost-column: 12/12;
+  }
+  .imageContainer {
+    lost-column: 3/12;
+  }
+}
+
+.descriptionContainer {
+  margin-left: 1rem;
 }
