@@ -144,7 +144,7 @@ Outcome: I am logged into the user dashboard page.
 </tbody>
 </table>
 
-If you landed on this blog without understanding software design and modelling tools, [you might want to stop it here and read this post first](/survey-about-mdse/).
+If you landed on this blog without understanding software design and modelling tools, [you might want to stop it here and read this post first](/posts/2019-04-05--survey-about-mdse/survey-about-mdse/).
 
 #### Which is the right fit for my company?
 
