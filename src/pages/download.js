@@ -30,38 +30,11 @@ const PageTemplate = () => {
         <div>
           <Tabs>
             <TabList>
-              <Tab>My resume</Tab>
               <Tab>Books</Tab>
               <Tab>Notes authored by me</Tab>
+              <Tab>My resume</Tab>
               <Tab>Papers authored by me</Tab>
             </TabList>
-
-            <TabPanel>
-              <p>
-                My up-to-date resume can be{" "}
-                <a href="https://github.com/sureshHARDIYA/Curriculum-Vitae/blob/master/Curriculum_Vitae.pdf">
-                  downloaded from GitHub link.
-                </a>
-                The LaTeX source code for the resume is located{" "}
-                <a href="https://github.com/sureshHARDIYA/Curriculum-Vitae">
-                  here.
-                </a>
-              </p>
-              <div>
-                <ul>
-                  <li>
-                    <a href="https://www.researchgate.net/profile/Suresh_Mukhiya2">
-                      Checkout my ResearchGate Profile
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://scholar.google.com/citations?user=9-fxxeMAAAAJ&hl=no">
-                      Checkout my Google Scholar Profile
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </TabPanel>
             <TabPanel>
               <div>
                 {books &&
@@ -89,7 +62,38 @@ const PageTemplate = () => {
                   ))}
               </ul>
             </TabPanel>
-            <TabPanel>Coming soon!</TabPanel>
+            <TabPanel>
+              <p>
+                My up-to-date resume can be{" "}
+                <a href="https://github.com/sureshHARDIYA/Curriculum-Vitae/blob/master/Curriculum_Vitae.pdf">
+                  downloaded from GitHub link.
+                </a>
+                The LaTeX source code for the resume is located{" "}
+                <a href="https://github.com/sureshHARDIYA/Curriculum-Vitae">
+                  here.
+                </a>
+              </p>
+              <div>
+                <ul>
+                  <li>
+                    <a href="https://www.researchgate.net/profile/Suresh_Mukhiya2">
+                      Checkout my ResearchGate Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://scholar.google.com/citations?user=9-fxxeMAAAAJ&hl=no">
+                      Checkout my Google Scholar Profile
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              All the papers authored by me can be download from the{" "}
+              <a href="/pages/publication">publication page</a>. Click on the
+              DOI link and download the PDF file. If you find any paper
+              interesting and want to discuss, feel free to shout out.
+            </TabPanel>
           </Tabs>
         </div>
       </Page>
