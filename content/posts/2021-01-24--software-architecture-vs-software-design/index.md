@@ -17,7 +17,7 @@ socialImage: "tdd.png"
 ## Abstract
 
 <div class="abstract" style="background-color: #f1f0f0; color: rgba(0, 0, 0, 1); padding: 1rem;font-style: italic;text-align: justify;">
-I recently had a job interview with a enterprise company. The interviewer asked me about, what is difference between TDD and BDD? I answered him gently that both of them are system development approaches. TDD focuses mainly on testing the implementation whereas BDD focuses mainly on testing the behaviour of the feature. TDD is a development practice whereas BDD is a team methodology. After interview, I wanted to reverify that what I answered was correct. I googled, the question was surprised to see several blog posts answering the question in their own way. I don’t want to point out any blogs here, but I decided to point out my understanding in my blog. Hope, I will be able to convince you with my answer.
+In this article, we are going to discuss several terms associated with software, software architecture and especially the difference between software architecture and software design. Software architecture is the skeleton of the entire system. It is the highest level of abstraction to comprehend how the whole system.  Software design is about detail specifications of individual modules/components and their technical relationships. 
 </div>
 
 #### Keywords:
