@@ -6,8 +6,9 @@ template: "post"
 draft: false
 slug: "ethical-aspects-of-my-project"
 tags:
-  - "Paper Review"
-  - "Evidence-based psychological"
+  - "paper review"
+  - "evidence-based treatment"
+  - "psychological treatment"
 description: "The trustworthiness of the scientific society and the perception of the public to judge and adhere to new knowledge strongly depends on the authenticity, accuracy, and reliability of the results that have been published."
 socialImage: ethics.png
 ---

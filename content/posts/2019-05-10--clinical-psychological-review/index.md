@@ -6,7 +6,7 @@ template: "post"
 draft: false
 slug: "clinical-psychological-review"
 tags:
-  - "Paper Review"
+  - "paper review"
 description: "Evidence-based psychological treatments is regarded as the best practice for treatment of mental health morbidities. The study analyses RCTs, reviews, meta-analysis, guides and reviews from 4 different organisations in relation to mental health disorders and the level of agreement among organisations associated evidence-based psychological treatments."
 socialImage: ebt.png
 ---

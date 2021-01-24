@@ -6,7 +6,8 @@ template: "post"
 draft: false
 slug: "Correlation-between-Sleeps"
 tags:
-  - "Mental Health"
+  - "mental health"
+  - "sleep issues"
 description: "Sleep is one of the most important daily activities for people. While some views sleeping as luxury and often discards or are unaware of the benefits of sleeping, some of the people are very sensitive to keeping their sleeping pattern normal and within the recommended threshold."
 socialImage: sleep.jpg
 ---

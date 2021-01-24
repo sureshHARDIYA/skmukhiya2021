@@ -6,7 +6,8 @@ template: "post"
 draft: false
 slug: "my-top-ten-favourite-movies"
 tags:
-  - "Personal traits"
+  - "personal traits"
+  - "personal"
 description: "I am always fascinated my sci-fi movies and spend quite a fraction of my leisure time watching these movies, watching their makings, reading their reviews and criticism. In this blog post, I would like to share my top 10 sci-fi movies that are evergreen for me."
 socialImage: Her.png
 ---

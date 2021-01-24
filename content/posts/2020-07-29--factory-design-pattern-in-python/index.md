@@ -6,9 +6,10 @@ draft: false
 slug: "factory-design-pattern-in-python"
 category: "Software Development"
 tags:
-  - "Design pattern"
-  - "Factory Design pattern"
-  - "Creational Design pattern"
+  - "design pattern"
+  - "factory design pattern"
+  - "creational design pattern"
+  - "software design"
 description: "Design patterns define tried and tested solutions to various recurring problems in software development."
 socialImage: "task.png"
 ---
