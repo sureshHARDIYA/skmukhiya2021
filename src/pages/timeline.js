@@ -18,6 +18,7 @@ const intro3 = "/images/jpg/intro3.jpg";
 const hvl = "/images/jpg/hvl.jpg";
 const kath = "/images/jpg/kath.jpg";
 const pic = "/images/jpg/pic.jpg";
+const landed = "/images/jpg/landed.jpg";
 
 const PageTemplate = () => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
@@ -73,6 +74,33 @@ const PageTemplate = () => {
               <img
                 src={hvl}
                 alt="LMV"
+                style={{ marginTop: "1rem", width: "100%" }}
+              />
+            </TimelineItem>
+            <TimelineItem
+              key="001223"
+              dateText="2016/01–2019/07"
+              dateInnerStyle={{ background: "#5bbc2e" }}
+              bodyContainerStyle={{
+                borderRadius: "6px",
+                boxSizing: "border-box",
+                boxShadow: "3px 3px 10px 0px rgba(46,61,73,0.2)",
+                padding: "0.687rem",
+              }}
+            >
+              <h3>Frontend Developer (Remote), https://www.landed.com/</h3>
+              <h4>Landed, Inc. San Francisco</h4>
+              <p>
+                Landed, Inc. San Francisco is a USA-based company that develops
+                provides financing help to teachers. The company uses Reactjs,
+                redux, react-router, redux-saga, node etc as front-end
+                technologies and NodeJS, Express, MongoDB etc for building API.
+                The development team follows TDD paradigm and uses SCRUM as
+                project management tool.
+              </p>
+              <img
+                src={landed}
+                alt="Landed"
                 style={{ marginTop: "1rem", width: "100%" }}
               />
             </TimelineItem>
