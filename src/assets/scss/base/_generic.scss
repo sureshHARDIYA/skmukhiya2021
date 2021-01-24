@@ -176,3 +176,64 @@ figcaption {
 .timeline {
   max-width: 100% !important;
 }
+
+p.note {
+  background-color: #f0f7fb;
+  background-image: url(/images/app-icons/css-box-icon-3.webp);
+  background-position: 0px 50%;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 10px 15px 80px;
+}
+
+p.success {
+  background-color: #e7f6f0;
+  background-image: url(/images/app-icons/css-box-icon-2.webp);
+  background-position: 0px 50%;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  border: solid 1px #27ae60;
+  border-radius: 6px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 10px 15px 80px;
+}
+
+p.warning {
+  background-color: #f9e7e5;
+  background-image: url(/images/app-icons/css-box-icon-4.webp);
+  background-position: 0px 50%;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  border: solid 1px #c0392b;
+  border-radius: 6px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 10px 15px 80px;
+}
+
+p.tips {
+  background-color: #fffbea;
+  background-image: url(/images/app-icons/css-box-icon-1.webp);
+  background-position: 0px 50%;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  border: solid 1px #f1c40f;
+  border-radius: 6px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 15px 10px 15px 80px;
+}
+
+code.language-text {
+  font-family: Consolas, "courier new" !important;
+  color: #222 !important;
+  background-color: #f1f1f1 !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  border-radius: 0 !important;
+}

@@ -6,10 +6,10 @@ draft: false
 slug: "theory-about-information-architecture"
 category: "Software Development"
 tags:
-  - "Information Architecture"
-  - "Software Architecture"
-  - "Web application"
-  - "Web application architecture"
+  - "information architecture"
+  - "software architecture"
+  - "web application"
+  - "web application architecture"
 description: "Information Architecture (IA) is associated with how people cognitively process information in any Information systems. IA assists experts in the content structuring making it comprehensible and discoverable for the Information Systems users."
 socialImage: ia.png
 ---

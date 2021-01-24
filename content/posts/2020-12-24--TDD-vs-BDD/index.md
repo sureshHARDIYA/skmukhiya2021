@@ -8,7 +8,8 @@ category: "Software Development"
 tags:
   - "TDD"
   - "BDD"
-  - "Software testing"
+  - "software testing"
+  - "software architecture"
 description: "TDD is a development practice whereas BDD is a team methodology. After interview, I wanted to reverify that what I answered was correct."
 socialImage: "tdd.png"
 ---

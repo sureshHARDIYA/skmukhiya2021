@@ -1,11 +1,40 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
 
 .post {
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
     padding: 0 15px;
+  }
+
+  blockquote {
+    font-size: 1em;
+    // width: 80%;
+    margin: 50px auto;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    text-align: left;
+    color: #555555;
+    padding: 1.2em 20px 1.2em 60px;
+    border-left: 8px solid #78c0a8;
+    line-height: 1.5;
+    position: relative;
+    background: #ededed;
+  }
+
+  blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: #78c0a8;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
+
+  blockquote::after {
+    content: "";
   }
 
   &__comments {
@@ -34,9 +63,7 @@
     &:focus {
       color: $color-primary;
     }
-
   }
-
 }
 
 @include breakpoint-md {
@@ -54,9 +81,7 @@
       max-width: auto;
       margin: 0;
       top: 30px;
-      left: 30px
+      left: 30px;
     }
-
   }
-
 }

@@ -6,7 +6,8 @@ template: "post"
 draft: false
 slug: "Adaptive-Technology-in-Mental-Health"
 tags:
-  - "Mental Health"
+  - "mental health"
+  - "adaptive technology"
 description: "Technology has open new domains in data collection and mental health. The uniqueness of mental health makes it difficult to successfully make technology that collaborates with human behavior and creates positive outcomes and measurement."
 socialImage: photo-1490474418585-ba9bad8fd0ea-cover.jpg
 ---

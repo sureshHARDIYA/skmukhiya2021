@@ -7,9 +7,9 @@ slug: "personalization-vs-customization"
 category: "Artificial Intelligence"
 tags:
   - "AI"
-  - "Recommendation Engine"
+  - "recommendation engine"
   - "personalization"
-  - "Customization"
+  - "customization"
 description: "Personalised and customised content has been shown to deliver more dynamic experiences, more user engagements, higher conversion rates, and better customer satisfaction."
 socialImage: "diff.png"
 ---

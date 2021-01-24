@@ -6,8 +6,9 @@ template: "post"
 draft: false
 slug: "survey-about-mdse"
 tags:
-  - "Software Design"
-  - "Software modelling"
+  - "software design"
+  - "software modelling"
+  - "software architecture"
 description: "We present the results of a survey of 228 software practitioners conducted on two phases ten years apart. The goal of the study is to uncover trends in the practice of software design and the adoption patterns of modeling languages such as UML."
 socialImage: mdse.png
 ---
