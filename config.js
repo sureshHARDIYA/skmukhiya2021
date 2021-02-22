@@ -32,6 +32,10 @@ module.exports = {
       label: "Download",
       path: "/download",
     },
+    {
+      label: "Snippets",
+      path: "/snippets",
+    },
   ],
   author: {
     name: "Suresh Kumar Mukhiya",

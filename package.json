@@ -40,9 +40,11 @@
   "dependencies": {
     "@sentry/gatsby": "^5.29.2",
     "@sentry/tracing": "^5.29.2",
+    "axios": "0.21.1",
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
     "codecov": "^3.8.1",
+    "crypto": "1.0.1",
     "gatsby": "^2.29.3",
     "gatsby-link": "^2.8.0",
     "gatsby-plugin-catch-links": "^2.7.0",
