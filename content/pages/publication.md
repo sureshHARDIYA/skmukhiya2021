@@ -4,6 +4,11 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
+### 2021
+
+- [`Journal`] Ahmed, U., Kumar Mukhiya, S., Lin, J. C.-W., Srivastava, G., & Lamo, Y. (2021). Attention-based Deep Entropy Active Learning using Lexical Algorithm for Mental Health Treatment. Frontiers in Psychology, 12, 471. [https://doi.org/10.3389/FPSYG.2021.642347](https://doi.org/10.3389/FPSYG.2021.642347).
+- [`Book chapter`] S. Mukhiya, A. Aminifar, F. Rabbi, V. Pun, and Y. Lamo. Artificial Intelligence in Mental Health. Bentham Science Publishers LTD., pages 13–34, 2021.
+
 ### 2020
 
 - [`Journal`] Mukhiya SK, Wake JD, Inal Y, Pun KI, Lamo Yngve, Adaptive Elements in Internet-Delivered Psychological Treatment Systems: Systematic Review, JMIR, [doi: https://doi.org/10.2196/21066](https://www.jmir.org/2020/11/e21066).

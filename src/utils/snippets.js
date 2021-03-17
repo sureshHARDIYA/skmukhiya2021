@@ -1,7 +1,7 @@
 // @flow strict
 import React from "react";
 
-export const utility = [
+export const JavaScript = [
   {
     id: 1,
     title: "Check if a URL has any query string.",
