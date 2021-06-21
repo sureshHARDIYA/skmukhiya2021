@@ -1,11 +1,10 @@
 // @flow strict
-import React from "react";
-import { Link } from "gatsby";
+import React, {useState, useEffect} from "react";
+import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Sidebar from "../components/Sidebar";
 import Page from "../components/Page";
-import { useSiteMetadata } from "../hooks";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -13,11 +12,11 @@ import "react-tabs/style/react-tabs.css";
 import { books, notes } from "../utils/data";
 import styles from "../components/Layout/Layout.module.scss";
 
-const PageTemplate = () => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+const PublicationTemplate = ({ data }) => {
   const metaDescription = "Timeline...";
   const socialImageUrl = "/media/image-2.jpg";
   const pageTitle = "Download resources compiled by me.";
+  const { html } = data.allMarkdownRemark.nodes[0];
 
   return (
     <Layout
@@ -31,11 +30,11 @@ const PageTemplate = () => {
           <Tabs>
             <TabList>
               <Tab>Books</Tab>
+              <Tab>Papers authored by me</Tab>
               <Tab>Notes authored by me</Tab>
               <Tab>My resume</Tab>
-              <Tab>Papers authored by me</Tab>
             </TabList>
-            <TabPanel>
+            <TabPanel onSelect={() => setPub(false)}>
               <div>
                 {books &&
                   books.map((item, index) => (
@@ -52,7 +51,11 @@ const PageTemplate = () => {
                   ))}
               </div>
             </TabPanel>
-            <TabPanel>
+            <TabPanel onSelect={() => setPub(true)}>
+              List of publications grouped by year.
+              <div dangerouslySetInnerHTML={{ __html: html }} />
+            </TabPanel>
+            <TabPanel onSelect={() => setPub(false)}>
               <ul>
                 {notes &&
                   notes.map((item, index) => (
@@ -62,7 +65,7 @@ const PageTemplate = () => {
                   ))}
               </ul>
             </TabPanel>
-            <TabPanel>
+            <TabPanel onSelect={() => setPub(false)}>
               <p>
                 My up-to-date resume can be{" "}
                 <a href="https://github.com/sureshHARDIYA/Curriculum-Vitae/blob/master/Curriculum_Vitae.pdf">
@@ -88,12 +91,6 @@ const PageTemplate = () => {
                 </ul>
               </div>
             </TabPanel>
-            <TabPanel>
-              All the papers authored by me can be download from the{" "}
-              <a href="/pages/publication">publication page</a>. Click on the
-              DOI link and download the PDF file. If you find any paper
-              interesting and want to discuss, feel free to shout out.
-            </TabPanel>
           </Tabs>
         </div>
       </Page>
@@ -101,4 +98,17 @@ const PageTemplate = () => {
   );
 };
 
-export default PageTemplate;
+export const query = graphql`
+  query MyQuery {
+    allMarkdownRemark(filter: {frontmatter: {template: {eq: "page"}, slug: {eq: "paper-publications"}}}) {
+      nodes {
+        html
+        frontmatter {
+          title
+          slug
+        }
+      }
+    }
+  }`;
+
+export default PublicationTemplate;

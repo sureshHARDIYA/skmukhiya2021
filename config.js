@@ -22,15 +22,11 @@ module.exports = {
     },
     {
       label: "Publications",
-      path: "/pages/publication",
+      path: "/publications",
     },
     {
       label: "Timeline",
       path: "/timeline",
-    },
-    {
-      label: "Download",
-      path: "/download",
     },
     {
       label: "Snippets",
@@ -45,7 +41,7 @@ module.exports = {
     contacts: {
       email: "itsmeskm99@gmail.com",
       facebook: "jagapati",
-      telegram: "https://orcid.org/0000-0002-1813-7633",
+      telegram: "0000-0002-1813-7633",
       twitter: "dr_code_skm",
       github: "sureshHARDIYA",
       rss: "https://www.researchgate.net/profile/Suresh_Mukhiya2",
